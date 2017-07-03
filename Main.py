@@ -164,8 +164,8 @@ class Game:
             if event.type == pg.KEYDOWN:
                 if event.key == pg.K_ESCAPE:
                     self.quit()
-                if event.key == pg.K_h:
-                    self.draw_debug = not self.draw_debug
+                #if event.key == pg.K_h:
+                #    self.draw_debug = not self.draw_debug
                 if event.key == pg.K_e:
                     self.inventoryMenu()
                 if event.key == pg.K_SPACE:

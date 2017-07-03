@@ -1,0 +1,69 @@
+General controls:
+- to choose a class hover the desired one during the class selection screen using your mouse and click
+- to interact with characters press space when facing them (the princess is a test dummy and have no interaction)
+- to open your inventory press e, and press again to close it
+- during the battle screen, press 'm', 's' or 'p' to launch the corresponding attack type
+- to quit the game press esc once (sometimes you may need to press twice, or click the x button)
+
+
+This is an old school final fantasy like rpg (with no random enemies, yet).
+
+-To choose your class use your mouse during the class selection screen.
+Each class has three stats: Matter, Spirit , and Fortune.
+Enemies have two stats: Matter and Spirit.
+
+*How the stats work:
+-matter and spirit are different attack types that you can use during the battle screen.
+if your matter is higher than the foe's matter, you will deal the difference as damage to the foe's matter
+same for spirit.
+And this also applies to the enemy.
+
+-If your matter or spirit are equal to the foe's, then you will deal 1 point of damage.
+
+-If your matter or spirit are equal to the foe's, you will do no damage.
+
+-fortune govern's the chance of you your upward class ability, the more fortune the more likely 
+you will get the upward ( good ) class ability. Speaking of which...
+
+-Entering a certain name grants you permenant bonus to some stats, for example if entered 'aloy' as your name
+you will get a permenant + 1 to spirit. 
+
+*Class abilities:
+-class abilities are effects that acitivates ate start of the battle (called Twist of fate),
+each enemy has it's unique class ability
+as well. Each ability has an upward (good) effect and downward (bad) effect, it's not always the case for enemies though.
+
+- class abilities are active until the battle ends and all stats gained or last will be reset to the second
+before you entered the battle. Same for your enemies
+
+
+*Battle:
+-when the battle screen shows up you will see the different attack types at the lower right corner of the screen:
+press 'm' on your keyboard to do a matter attack
+press 's' on your keyboard to do a spirit attack
+press ' p' your keyboard to pass your turn
+
+- on the low-midle of the screen you will see your stats that update each turn as will as what happened during twist of fate
+at the last line for you and your opponent.
+
+- The big middle section shows what goes on the battle during each turn, blue text indicates your actions while red text
+indicates the enemy actons.
+
+the top section of the screen was meant to include you and your enemy characters as well as animations of each attack
+but i am still working on it.
+
+- Why would I wan't to pass my turn?
+generally that's not a good idea, some enemies like the fool may be triggered by this if you pass too much and eneter
+'Flee' state, if enemy enters 'Flee' state they will run away and drop a special item.
+
+Flee states are unique for each enemy and not only triggered by passing
+
+
+*Inventory:
+- by pressing 'e' on the keyboard, the inventory screen will show up.
+the inventory show your permenant stats on the right and the items you have.
+
+- Items have hidden bonuses that are not stated. For example, having 'Cup of Ace' on your inventory increases
+the chances of you getting an upward twist of fate (doesn't change your fortune but makes each fortune point have more weight)
+
+
