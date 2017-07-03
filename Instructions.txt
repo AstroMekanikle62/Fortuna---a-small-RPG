@@ -25,8 +25,14 @@ And this also applies to the enemy.
 -fortune govern's the chance of you your upward class ability, the more fortune the more likely 
 you will get the upward ( good ) class ability. Speaking of which...
 
--Entering a certain name grants you permenant bonus to some stats, for example if entered 'aloy' as your name
-you will get a permenant + 1 to spirit. 
+-Entering a certain name grants you permenant bonus to some stats, for example if entered 'athena' as your name
+you will get a permenant + 2 to matter. 
+
+-Enemies have 50% of landing upward or donward effects, note that unlicke you, enemies downward effects aren't always bad.
+
+*Where is my health bar?
+- good question. Will... your stats are your health bar!
+if any of your stats drops to 0 (or below) during a battle you will die, similarly for your opponents.
 
 *Class abilities:
 -class abilities are effects that acitivates ate start of the battle (called Twist of fate),
