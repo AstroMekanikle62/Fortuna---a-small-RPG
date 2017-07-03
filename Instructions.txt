@@ -20,7 +20,7 @@ And this also applies to the enemy.
 
 -If your matter or spirit are equal to the foe's, then you will deal 1 point of damage.
 
--If your matter or spirit are equal to the foe's, you will do no damage.
+-If your matter or spirit are less than foe's, you will do no damage.
 
 -fortune govern's the chance of you your upward class ability, the more fortune the more likely 
 you will get the upward ( good ) class ability. Speaking of which...
