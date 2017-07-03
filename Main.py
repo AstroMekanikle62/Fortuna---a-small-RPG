@@ -176,13 +176,15 @@ class Game:
         self.screen.fill(FORESTGREEN)
         self.draw_text(self.start_font_name,TITLE, 48, WHITE, WIDTH / 2, HEIGHT / 7)
         self.draw_text(self.start_font_name,"A game created by Jafar Al-hussain aka Astro_Mekanikle", 22, WHITE, WIDTH / 2, HEIGHT / 3.5)
-        self.draw_text(self.start_font_name,"Arrows to move, Space to interact, e to open the inventory", 22, WHITE, WIDTH / 2, HEIGHT / 1.5)
+        self.draw_text(self.start_font_name,"Arrows to move, Space to interact, e to open the inventory", 22, WHITE, WIDTH / 2, HEIGHT / 1.8)
+        self.draw_text(self.start_font_name,"During the battle, press M or S or P to conduct the corresponding attack", 22, WHITE, WIDTH / 2, HEIGHT / 1.6)
         self.draw_text(self.start_font_name,"Press any key to play", 22, WHITE, WIDTH / 2, HEIGHT * 3 / 4)
         pg.display.flip()
         self.wait_for_key()
 
     def show_name_entry_screen(self):
         #The name entry screen utilize the input box function from pygame_functions
+        self.screen.fill(GREEN)
         self.screen.blit(self.name_scroll_img, (27, 0))
         self.name_box = makeTextBox(310, 110 , 250 , 1, "    Type then press enter" , 24 , 24)
         showTextBox(self.name_box)
