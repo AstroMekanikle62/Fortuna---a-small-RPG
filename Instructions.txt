@@ -66,4 +66,8 @@ the inventory show your permenant stats on the right and the items you have.
 - Items have hidden bonuses that are not stated. For example, having 'Cup of Ace' on your inventory increases
 the chances of you getting an upward twist of fate (doesn't change your fortune but makes each fortune point have more weight)
 
-
+*Interaction:
+when you press space infront of a character a pop up box will appear, when you press space again it will close.
+enemies usually will say something before attacking you, thus when you start dialogue with them and close it
+the battle screen will show up.
+NPC's are not implemnted yet but are planned
