@@ -22,7 +22,7 @@ And this also applies to the enemy.
 
 -If your matter or spirit are less than foe's, you will do no damage.
 
--fortune govern's the chance of you your upward class ability, the more fortune the more likely 
+-fortune govern's the chance of you getting your upward class ability, the more fortune the more likely 
 you will get the upward ( good ) class ability. Speaking of which...
 
 -Entering a certain name grants you permenant bonus to some stats, for example if entered 'athena' as your name
