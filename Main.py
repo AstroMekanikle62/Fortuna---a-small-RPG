@@ -1,7 +1,7 @@
 __author__ = "Jafar alhussain , alias: Astro_Mekanikle"
 __license__ = "Feel free to benifit from and/or use this program"
 __version__ = "0.5"
-
+#!/usr/bin/env python
 import pygame as pg
 import sys
 from os import path
@@ -29,7 +29,13 @@ class Game:
 
 
     def load_data(self):
-        game_folder = path.dirname(__file__) #game file directory
+        #game_folder = path.dirname(__file__) #game file directory
+        if getattr(sys, 'frozen', False):
+            # frozen
+            game_folder = os.path.dirname(sys.executable)
+        else:
+            # unfrozen
+            game_folder = os.path.dirname(os.path.realpath(__file__))
         img_folder = path.join(game_folder, "img") #img file directory
         map_folder = path.join(game_folder, "maps")
         player_folder = path.join(img_folder, "player")
@@ -237,7 +243,7 @@ class Game:
            self.draw_text(self.inventory_font_name,"(Press any key to continue)", 24, DARKGREY, WIDTH / 2, 385)
            pg.display.flip()
            self.wait_for_key()
-        elif self.characterName == "Ea" or self.characterName == "Activision" or self.characterName == "CUbisoft":
+        elif self.characterName == "Ea" or self.characterName == "Activision" or self.characterName == "Ubisoft":
            self.draw_text(self.inventory_font_name,"SPECIAL NAME BONUS LOCKED!", 35, BLACK, WIDTH / 2, 250)
            self.draw_text(self.inventory_font_name,"To unlock this bonus you must pay 9.99$", 28, BLACK, WIDTH / 2, 300)
            self.draw_text(self.inventory_font_name,"Until you pay your stats are set to 0", 28, BLACK, WIDTH / 2, 330)
