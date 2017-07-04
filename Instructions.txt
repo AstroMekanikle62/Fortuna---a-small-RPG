@@ -28,7 +28,7 @@ you will get the upward ( good ) class ability. Speaking of which...
 -Entering a certain name grants you permenant bonus to some stats, for example if you entered 'athena' as your name
 you will get a permenant + 2 to matter. 
 
--Enemies have 50% chance of landing upward or donward effects, note that unlike you, downward for enemies effects aren't always bad.
+-Enemies have 50% chance of landing upward or donward effects, note that unlike you, downward effects for enemies aren't always bad.
 
 *Where is my health bar?
 - good question. Will... your stats are your health bar!
@@ -36,20 +36,21 @@ if any of your stats drops to 0 (or below) during a battle you will die, similar
 
 *Class abilities:
 -class abilities are effects that acitivates ate start of the battle (called Twist of fate),
-each enemy has it's unique class ability
-as well. Each ability has an upward (good) effect and downward (bad) effect, it's not always the case for enemies though.
+each enemy has it's unique class ability as well.
+Each ability has an upward (good) effect and downward (bad) effect, it's not always the case for enemies though.
 
 - class abilities are active until the battle ends and all stats gained or lost will be reset to the second
 before you entered the battle. Same for your enemies
 
 
 *Battle:
+-Battle is a turned base, you will always start first.
 -when the battle screen shows up you will see the different attack types at the lower right corner of the screen:
 press 'm' on your keyboard to do a matter attack
 press 's' on your keyboard to do a spirit attack
 press ' p' your keyboard to pass your turn
 
-- on the low-midle of the screen you will see your stats that update each turn as will as what happened during twist of fate
+- on the low-mid of the screen you will see your stats that update each turn as will as what happened during twist of fate
 at the last line for you and your opponent.
 
 - The big middle section shows what goes on the battle during each turn, blue text indicates your actions while red text
@@ -59,15 +60,15 @@ the top section of the screen was meant to include you and your enemy characters
 but i am still working on it.
 
 - Why would I wan't to pass my turn?
-generally that's not a good idea, some enemies like "The Fool" may be triggered by this if you pass too much and eneter
-'Flee' state, if an enemy enters 'Flee' state they will run away and drop a special item.
+generally that's not a good idea, some enemies like "The Fool" may be triggered by this if you pass too much and the will eneter a
+'Flee' state, if an enemy enters a 'Flee' state they will run away and drop a special item.
 
-Flee states are unique for each enemy and not only triggered by passing
+Flee state conditions are unique for each enemy and not only triggered by passing.
 
 
 *Inventory:
 - by pressing 'e' on the keyboard, the inventory screen will show up.
-the inventory show your permenant stats on the right and the items you have.
+the inventory show your permenant stats on the right and the items you have on the left.
 
 - Items have hidden bonuses that are not stated. For example, having 'Cup of Ace' on your inventory increases
 the chances of you getting an upward twist of fate (doesn't change your fortune but makes each fortune point have more weight)
