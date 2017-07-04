@@ -25,10 +25,10 @@ And this also applies to the enemy.
 -fortune govern's the chance of you getting your upward class ability, the more fortune the more likely 
 you will get the upward ( good ) class ability. Speaking of which...
 
--Entering a certain name grants you permenant bonus to some stats, for example if entered 'athena' as your name
+-Entering a certain name grants you permenant bonus to some stats, for example if you entered 'athena' as your name
 you will get a permenant + 2 to matter. 
 
--Enemies have 50% of landing upward or donward effects, note that unlicke you, enemies downward effects aren't always bad.
+-Enemies have 50% chance of landing upward or donward effects, note that unlike you, downward for enemies effects aren't always bad.
 
 *Where is my health bar?
 - good question. Will... your stats are your health bar!
@@ -39,7 +39,7 @@ if any of your stats drops to 0 (or below) during a battle you will die, similar
 each enemy has it's unique class ability
 as well. Each ability has an upward (good) effect and downward (bad) effect, it's not always the case for enemies though.
 
-- class abilities are active until the battle ends and all stats gained or last will be reset to the second
+- class abilities are active until the battle ends and all stats gained or lost will be reset to the second
 before you entered the battle. Same for your enemies
 
 
@@ -59,8 +59,8 @@ the top section of the screen was meant to include you and your enemy characters
 but i am still working on it.
 
 - Why would I wan't to pass my turn?
-generally that's not a good idea, some enemies like the fool may be triggered by this if you pass too much and eneter
-'Flee' state, if enemy enters 'Flee' state they will run away and drop a special item.
+generally that's not a good idea, some enemies like "The Fool" may be triggered by this if you pass too much and eneter
+'Flee' state, if an enemy enters 'Flee' state they will run away and drop a special item.
 
 Flee states are unique for each enemy and not only triggered by passing
 
