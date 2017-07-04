@@ -1,4 +1,4 @@
-*All the game assets are obtaine legally from www.opengameart.org
+*All the game assets are obtained legally from www.opengameart.org
 
 - characters are based off 24x32 characters big pack by Svetlana Kushnariova 
 (lana-chan@yandex.ru).
@@ -10,6 +10,6 @@
 
 - UI boxes by the user plemuzic
 
-*pygamefunctions is done by StevePaget
+*pygamefunctions is py file done by StevePaget
 
 *Special thanks to Chris Bradfield (https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg) for his good tutorials
