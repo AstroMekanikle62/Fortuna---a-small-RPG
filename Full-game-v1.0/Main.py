@@ -29,7 +29,7 @@ class Game:
         self.fleeyard = []
         self.itemlist = []
         self.devilbook = ["matter", "spirit"]
-        self.bonusnamelist = ["Aloy","Athena","Akiza","Vivec","Jafar","Hart","Cortez","Ea","Astro mekanikle"]
+        self.bonusnamelist = ["Classified :D"]
         self.inventorydic={}
         self.load_data() #external data (images and other files) that must be loaded
         self.start_font_name = pg.font.match_font(START_FONT) #font of the startup screen
@@ -277,39 +277,39 @@ class Game:
         self.name_box = makeTextBox(310, 110 , 250 , 1, "    Type then press enter" , 24 , 24)
         showTextBox(self.name_box)
         self.characterName = textBoxInput(self.name_box).capitalize()
-        if self.characterName == "Aloy":
+        if self.characterName == "Classified :D":
            self.draw_text(self.inventory_font_name,"SPECIAL NAME BONUS!", 35, ORANGE, WIDTH / 2, 250,"c")
-           self.draw_text(self.inventory_font_name,"A formidable tribal warrior known across the land", 28, ORANGE, WIDTH / 2, 300,"c")
-           self.draw_text(self.inventory_font_name,"as Aloy you gain +1 to Spirit", 28, ORANGE, WIDTH / 2, 330,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, ORANGE, WIDTH / 2, 300,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, ORANGE, WIDTH / 2, 330,"c")
            self.draw_text(self.inventory_font_name,"(Press any key to continue)", 24, BLACK, WIDTH / 2, 385,"c")
            pg.display.flip()
            self.wait_for_key()
-        elif self.characterName == "Misty":
+        elif self.characterName == "Classified :D":
            self.draw_text(self.inventory_font_name,"SPECIAL NAME BONUS!", 35, PURPLE, WIDTH / 2, 250,"c")
-           self.draw_text(self.inventory_font_name,"Famous for her charm in the town of Liberty", 28, PURPLE, WIDTH / 2, 300,"c")
-           self.draw_text(self.inventory_font_name,"as Misty you gain +1 to Fortune", 28, PURPLE, WIDTH / 2, 330,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, PURPLE, WIDTH / 2, 300,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, PURPLE, WIDTH / 2, 330,"c")
            self.draw_text(self.inventory_font_name,"(Press any key to continue)", 24, BLACK, WIDTH / 2, 385,"c")
            pg.display.flip()
            self.wait_for_key()
-        elif self.characterName == "Akiza" or self.characterName == "Aki":
+        elif self.characterName == "Classified :D" or self.characterName == "Classified :D":
            self.draw_text(self.inventory_font_name,"SPECIAL NAME BONUS!", 35, CRIMSON, WIDTH / 2, 250,"c")
-           self.draw_text(self.inventory_font_name,"As the bearer of the black rose and the mark of the crimson dragon",\
+           self.draw_text(self.inventory_font_name,"Classified :D",\
                          28, CRIMSON, WIDTH / 2, 300,"c")
-           self.draw_text(self.inventory_font_name,"you gain +1 to Matter and Spirit", 28, CRIMSON, WIDTH / 2, 330,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, CRIMSON, WIDTH / 2, 330,"c")
            self.draw_text(self.inventory_font_name,"(Press any key to continue)", 24, BLACK, WIDTH / 2, 385,"c")
            pg.display.flip()
            self.wait_for_key()
-        elif self.characterName == "Athena":
+        elif self.characterName == "Classified :D":
            self.draw_text(self.inventory_font_name,"SPECIAL NAME BONUS!", 35, RED, WIDTH / 2, 250,"c")
-           self.draw_text(self.inventory_font_name,"Slayed an entire army, with a single sword!", 28, RED, WIDTH / 2, 300,"c")
-           self.draw_text(self.inventory_font_name,"as Athena you gain +2 to Matter", 28, RED, WIDTH / 2, 330,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, RED, WIDTH / 2, 300,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, RED, WIDTH / 2, 330,"c")
            self.draw_text(self.inventory_font_name,"(Press any key to continue)", 24, BLACK, WIDTH / 2, 385,"c")
            pg.display.flip()
            self.wait_for_key()
-        elif self.characterName == "Vivec":
+        elif self.characterName == "Classified :D":
            self.draw_text(self.inventory_font_name,"SPECIAL NAME BONUS!", 35, OILY, WIDTH / 2, 250,"c")
-           self.draw_text(self.inventory_font_name,"Some say he was immortal", 28, PALEBLUE, WIDTH / 2, 300,"c")
-           self.draw_text(self.inventory_font_name,"as Vivec you gain +1 to all stats", 28, OILY, WIDTH / 2, 330,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, PALEBLUE, WIDTH / 2, 300,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, OILY, WIDTH / 2, 330,"c")
            self.draw_text(self.inventory_font_name,"(Press any key to continue)", 24, BLACK, WIDTH / 2, 385,"c")
            pg.display.flip()
            self.wait_for_key()
@@ -319,21 +319,21 @@ class Game:
            self.draw_text(self.inventory_font_name,"(Press any key to continue)", 24, BLACK, WIDTH / 2, 385,"c")
            pg.display.flip()
            self.wait_for_key()
-        elif self.characterName == "Hart" or self.characterName == "Cortez":
+        elif self.characterName == "Classified :D" or self.characterName == "Classified :D":
            self.draw_text(self.inventory_font_name,"SPECIAL NAME BONUS!", 35, DARKGREY, WIDTH / 2, 250,"c")
-           self.draw_text(self.inventory_font_name,"Defeating the timesplitters granted you + 2 to Spirit", 28, DARKGREY, WIDTH / 2, 300,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, DARKGREY, WIDTH / 2, 300,"c")
            self.draw_text(self.inventory_font_name,"(Press any key to continue)", 24, DARKGREY, WIDTH / 2, 385,"c")
            pg.display.flip()
            self.wait_for_key()
-        elif self.characterName == "Ea" or self.characterName == "Activision" or self.characterName == "Ubisoft":
+        elif self.characterName == "Ea" or self.characterName == "Classified :D" or self.characterName == "Classified :D":
            self.draw_text(self.inventory_font_name,"SPECIAL NAME BONUS LOCKED!", 35, BLACK, WIDTH / 2, 250,"c")
-           self.draw_text(self.inventory_font_name,"To unlock this bonus you must pay 9.99$", 28, BLACK, WIDTH / 2, 300,"c")
-           self.draw_text(self.inventory_font_name,"Until you pay your stats are set to 0", 28, BLACK, WIDTH / 2, 330,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, BLACK, WIDTH / 2, 300,"c")
+           self.draw_text(self.inventory_font_name,"Classified :D", 28, BLACK, WIDTH / 2, 330,"c")
            self.draw_text(self.inventory_font_name,"(Press any key to continue)", 24, BLACK, WIDTH / 2, 385,"c")
            pg.display.flip()
            self.wait_for_key()
-        elif self.characterName == "Astro mekanikle" or self.characterName == "Astro-mekanikle"\
-           or self.characterName == "Astro Mekanikle" :
+        elif self.characterName == "Classified :D" or self.characterName == "Classified :D"\
+           or self.characterName == "Classified :D" :
            self.draw_text(self.inventory_font_name,"SUPER SPECIAL NAME BONUS!", 35, WHITE, WIDTH / 2, 250,"c")
            self.draw_text(self.inventory_font_name,"Make your enemies taste the true meaning of despair!", 28, RED, WIDTH / 2, 300,"c")
            self.draw_text(self.inventory_font_name,"you gain +4 to Matter and Spirit", 28, BLUE, WIDTH / 2, 330,"c")
@@ -782,30 +782,30 @@ class Game:
             self.characterFortune = 3   
 
     def name_bonus(self): # Tyoing in specifc secret ames grants you different bonuses
-        if self.characterName == "Aloy":
+        if self.characterName == "Classified :D":
              self.characterSpirit = self.characterSpirit + 1
-        elif self.characterName == "Misty":
+        elif self.characterName == "Classified :D":
              self.characterFortune = self.characterFortune + 1
-        elif self.characterName == "Akiza" or self.characterName == "Aki":
+        elif self.characterName == "Classified :D" or self.characterName == "Classified :D":
              self.characterMatter = self.characterMatter + 1
              self.characterSpirit = self.characterSpirit + 1
-        elif self.characterName == "Athena":
+        elif self.characterName == "Classified :D":
              self.characterMatter = self.characterMatter + 2
-        elif self.characterName == "Vivec":
+        elif self.characterName == "Classified :D":
              self.characterMatter = self.characterMatter + 1
              self.characterSpirit = self.characterSpirit + 1
              self.characterFortune = self.characterFortune + 1
-        elif self.characterName == "Hart" or self.characterName == "Cortez":
+        elif self.characterName == "Classified :D" or self.characterName == "Classified :D":
              self.characterSpirit = self.characterSpirit + 2
         elif self.characterName == "Jafar" or self.characterName == "Ja'far":
              self.characterMatter = self.characterMatter + 3
              self.characterSpirit = self.characterSpirit + 3
-        elif self.characterName == "Ea" or self.characterName == "Activision"or self.characterName == "Ubisoft":
+        elif self.characterName == "Classified :D" or self.characterName == "Classified :D"or self.characterName == "Classified :D":
              self.characterMatter = 0
              self.characterSpirit = 0
              self.characterFortune = 0
-        elif self.characterName == "Astro mekanikle" or self.characterName == "Astro-mekanikle"\
-             or self.characterName == "Astro Mekanikle":
+        elif self.characterName == "Classified :D" or self.characterName == "Classified :D"\
+             or self.characterName == "Classified :D":
              self.characterMatter = self.characterMatter + 4
              self.characterSpirit = self.characterSpirit + 4
         else:
