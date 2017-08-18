@@ -1,6 +1,6 @@
 # Fortuna---a-small-RPG
 
-After 4 months of constant work it's finally done!
+After 3 months of constant work it's finally done!
 my first programming project, Fortuna is a small-linear-turn based-rpg game with unique twists.
 
 you can start with three player classes all with there unique abilities,
