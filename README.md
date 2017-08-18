@@ -12,3 +12,7 @@ there are four sacred items hidden in the game that will give you significant ad
 but obtaining them isn't easy.
 
 May Fortuna smiles on you.
+
+========
+Download the game:
+https://www.dropbox.com/s/1pgyt6micc6ifhl/Fortuna.rar?dl=0
