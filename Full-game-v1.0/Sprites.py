@@ -37,6 +37,7 @@ class Player(pg.sprite.Sprite):
         self.last_update = 0
         self.load_player_images()
         self.image = self.walking_front_frames[0]
+        self.rect.center = (x,y)
         self.rect = self.image.get_rect()
         self.vel = vec(0,0) # velocity vector
         self.pos = vec(x,y) #* TILESIZE #position vector
